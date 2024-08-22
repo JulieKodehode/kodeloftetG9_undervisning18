@@ -8,7 +8,28 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
+    <main>
+      <!-- Fruit Bowl Application -->
+      <section>
+        <h2>Min frukt bolle</h2>
 
-    
+        <!-- Input som tar i mot data -->
+        <label for="inputFruit">
+          Skriv inn en frukt
+          <input type="text" name="inputFruit" id="inputFruit">
+        </label>
+
+        <div>
+          <!-- Knapper som har funksjonaliteter i javascript når trykkes på -->
+          <button id="fruitPush">Legge til på slutten</button>
+          <button id="fruitPop">Fjerne på slutten</button>
+          <button id="fruitUnshift">Legge til på starten</button>
+          <button id="fruitShift">Fjerne på starten</button>
+        </div>
+
+        <!-- Element hvor resultat vises frem etter JS formulering -->
+        <p id="fruitDisplay">Banan, eple, kiwi</p>
+      </section>
+    </main>
   </body>
 </html>
